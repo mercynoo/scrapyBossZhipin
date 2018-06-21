@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - scrapy@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="scrapy">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="notify"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="seckill"/>
+    <schema id="8" parent="1" name="sys"/>
+    <schema id="9" parent="1" name="test"/>
+    <schema id="10" parent="1" name="webtest"/>
+    <schema id="11" parent="1" name="zhipin">
+      <Visible>1</Visible>
+    </schema>
+    <table id="12" parent="2" name="moocCourse"/>
+    <table id="13" parent="2" name="zhipin"/>
+    <table id="14" parent="11" name="Java开发"/>
+    <table id="15" parent="11" name="产品"/>
+    <table id="16" parent="11" name="产品经理"/>
+    <table id="17" parent="11" name="测试"/>
+    <column id="18" parent="12" name="title">
+      <Position>1</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="12" name="url">
+      <Position>2</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="20" parent="12" name="image_url">
+      <Position>3</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="21" parent="12" name="introduction">
+      <Position>4</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="22" parent="12" name="student">
+      <Position>5</Position>
+      <DataType>int(100)|0</DataType>
+    </column>
+    <key id="23" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>title</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="24" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>int(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="13" name="company">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="13" name="positionName">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="13" name="seniority">
+      <Position>4</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="28" parent="13" name="salary">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="29" parent="13" name="education">
+      <Position>6</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="30" parent="13" name="city">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="31" parent="13" name="industryField">
+      <Position>8</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="32" parent="13" name="financeStage">
+      <Position>9</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="33" parent="13" name="amount">
+      <Position>10</Position>
+      <DataType>int(100)|0</DataType>
+    </column>
+    <key id="34" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="35" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>int(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="36" parent="14" name="company">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="14" name="positionName">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="14" name="seniority">
+      <Position>4</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="39" parent="14" name="salary">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="40" parent="14" name="education">
+      <Position>6</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="41" parent="14" name="city">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="42" parent="14" name="industryField">
+      <Position>8</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="43" parent="14" name="financeStage">
+      <Position>9</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <key id="44" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="45" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>int(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="46" parent="15" name="company">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="15" name="positionName">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="15" name="seniority">
+      <Position>4</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="49" parent="15" name="salary">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="50" parent="15" name="education">
+      <Position>6</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="51" parent="15" name="city">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="52" parent="15" name="industryField">
+      <Position>8</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="53" parent="15" name="financeStage">
+      <Position>9</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <key id="54" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>int(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="56" parent="16" name="company">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="16" name="positionName">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="16" name="seniority">
+      <Position>4</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="59" parent="16" name="salary">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="60" parent="16" name="education">
+      <Position>6</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="61" parent="16" name="city">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="62" parent="16" name="industryField">
+      <Position>8</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="63" parent="16" name="financeStage">
+      <Position>9</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <key id="64" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="65" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>int(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="66" parent="17" name="company">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="17" name="positionName">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="17" name="seniority">
+      <Position>4</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="69" parent="17" name="salary">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="70" parent="17" name="education">
+      <Position>6</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="71" parent="17" name="city">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="72" parent="17" name="industryField">
+      <Position>8</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <column id="73" parent="17" name="financeStage">
+      <Position>9</Position>
+      <DataType>varchar(150)|0</DataType>
+    </column>
+    <key id="74" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
